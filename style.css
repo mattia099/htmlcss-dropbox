@@ -139,6 +139,9 @@ header .row .col-6:nth-child(2){
 
 /***BUSINESS***/
 /*3 colonne*/
+.business{
+    padding-bottom: 100px;
+}
 .business h2{
     padding-top: 150px;
     padding-bottom: 40px;
@@ -228,6 +231,7 @@ p.bordo{
     margin-bottom:20px;
 }
 
+
 /*colonna enterprise*/
 .business .col-12{
     border:solid 1px lightgray
@@ -240,4 +244,26 @@ p.bordo{
 .contact .button{
     float: right;
     padding: 10px 40px;
+}
+
+/*PARTNER*/
+.partner .col-6 img{
+    width: 100%;
+}
+.partner .col-6:nth-child(2){
+    padding-left: 30px;
+}
+.partner h2{
+    padding-bottom: 20px;
+}
+.partner p{
+    padding-bottom: 30px;
+}
+.button.white{
+    background-color: white;
+    border:1px solid black;
+    color: black;
+}
+.partner{
+    padding: 100px;
 }
