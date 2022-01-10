@@ -16,13 +16,6 @@ a{
     text-decoration: none;
     color:black;
 }
-.button{
-    background-color: #0061FF;
-    color: white;
-    padding:10px 20px;
-}
-
-
 
 /*Layout*/
 .container{
@@ -81,6 +74,14 @@ a{
     width: 100%;
 }
 
+.button{
+    background-color: #0061FF;
+    color: white;
+    padding:10px 20px;
+}
+
+.button:hover{
+}
 /*HEADER*/
 header{
     padding: 10px;
@@ -381,6 +382,11 @@ p.bordo{
     position: relative;
 }
 
+.banner .button.white{
+    padding:10px 50px;
+    border: none;    
+}
+
 .banner .col-6:nth-child(2){
    text-align: right;
 }
@@ -400,6 +406,7 @@ p.bordo{
 /*QUESTION*/
 .question p{
     display: inline-block;
+    font-weight: 600;
 }
 .question .fas.fa-angle-down{
     float: right;
@@ -418,5 +425,47 @@ p.bordo{
     font-size: 35px;
 }
 .question{
-    margin-top: 60px;
+    margin-top: 100px;
+}
+
+/*FOOTER*/
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+}
+footer li{
+    padding-top: 20px;
+}
+footer li a{
+    color: white;
+}
+
+footer .row{
+    padding-top: 80px;
+}
+
+footer .col-2{
+    margin-right: 52.0825px;
+}
+footer .col-2:last-child{
+    margin-right: 0;
+}
+
+footer .row::after{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 100px;
+    background-color: #aaa;
+    margin-bottom: 50px;
+}
+
+footer ul{
+    margin-bottom: 100px;
+}
+
+.language{
+    color: #aaa;
+    padding-bottom: 50px;
 }
